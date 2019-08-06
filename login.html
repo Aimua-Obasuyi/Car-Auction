@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car option</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+    <!-- main style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+
+    <!-- header section -->
+    <header>
+        <nav>
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-bar">
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="">Auctions</a></li>
+                   <li><a href="service.html">Services</a></li>
+                   <li><a href="contact.html">About</a></li>
+                   <li><a href="login.html">Login</a></li>
+               </ul>
+            </div> 
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+             <script type="text/javascript">
+        
+             $(document).ready(function(){
+                    $('.menu').click(function(){
+                        $('.menu').toggleClass('active')
+                        $('.menu-bar').toggleClass('active')
+                    })
+             })
+             </script>
+        </nav>
+    </header>
+    <!-- header section end here -->
+
+    <!-- banner section -->
+    <section class="service-banner">
+        <div class="container">
+            <div class="ser-text">
+                <h2>Login</h2>
+                <ul class="page-bread">
+                    <li class="bg-font"><a href="#"><i class="fa fa-home"></i> Home</a> <i
+                            class="fa fa-angle-double-right"></i>
+                    <li class="bg-font"><a href="#">Login</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end here -->
+
+    <!-- services section -->
+    <section class="services">
+        <div class="container">
+            <div class="text-heading">
+                <div class="client-title">
+                    <span>Log in with your id </span>
+                    <h2>LOGIN TO YOUR ACCOUNT</h2>
+                    <div class="line4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="margin-top: -60px;">
+        <div class="Login">
+            <form class="contact-form"  > 
+                <div class="form-control">
+                    <input type="text" name="text" placeholder="Used Id" required>
+                </div>
+                <div class="form-control">
+                    <input type="password" name="password" placeholder="password" required>
+                </div>
+                <div>
+                    <input class="submit" type="submit" value=" Login">
+                </div>
+            </form>
+
+        </div>
+       <div class="section-title" style="padding-top: 15px;">
+            <p > Don't Have an Account <a href="" style="color: rgb(192, 30, 30); font-size: 15px">Join Up</a> </p>
+            <p style="margin-top: -20px; margin-left: -50px;">  <a href="" style="color: rgb(150, 150, 150); font-size: 14px; text-decoration: underline;">Forgotten password</a> </p>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="form-top">
+                <div id="foot">
+                    <h5>About Us</h5>
+                    <p id="words">CrestPillar is the leading financial establishment providing high-quality
+                        international
+                        banking services. Our success is attributed to our loyal customers and to the talent and
+                        dedication
+                        of our professional and skilled employees. We are always ready to partner with you by offering
+                        full
+                        financial support to our clients worldwide.</p>
+
+                </div>
+
+                <div id="fill">
+                    <h5>Get in Touch</h5>
+                    <form>
+                        <div id="name">
+                            <input class="form-input" type="text" placeholder="Name" required>
+                        </div>
+                        <div id="name">
+                            <input class="form-input" type="email" placeholder="E-mail" required>
+                        </div>
+                        <div>
+                            <textarea type="textarea" placeholder="Message" required id="text"></textarea>
+                        </div>
+                        <button class="but-but">
+                            Read More
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="sev-footer">
+                <div class="foter-col">
+                    <div class="col1">
+                        <h4>DO YOU WANT TO SELL A CAR?</h4>
+                        <p> Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
+                    </div>
+                    <div class="col2"><button class="fot-but"> Read More </button></div>
+
+                </div>
+                <div class="foter-col">
+                    <div class="col1">
+                        <h4>DO YOU WANT TO SELL A CAR?</h4>
+                        <p> Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
+                    </div>
+                    <div class="col2"><button class="fot-but"> Read More </button></div>
+                </div>
+            </div>
+        </div>
+        <P id="copy"><span>©&nbsp;</span>2019 All CopyRights</P>
+    </footer>
+
+</body>
+
+</html>
